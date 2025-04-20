@@ -1,0 +1,91 @@
+{
+  "project_identity": {
+    "name": "AirBnB Clone v4",
+    "type": "education",
+    "scope": "repository",
+    "is_independent": false,
+    "version": "v4",
+    "related_versions": ["v1", "v2", "v3"],
+    "description": "Full-stack AirBnB clone with dynamic web interface"
+  },
+  "tech_stack": {
+    "primary": ["Python 3.x", "JavaScript", "jQuery", "Flask", "MySQL", "SQLAlchemy"],
+    "secondary": ["HTML5", "CSS3", "RESTful API", "JSON", "AJAX", "Swagger/Flasgger"],
+    "key_libraries": ["flask", "flask_cors", "sqlalchemy", "flasgger", "jquery"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "DOM Manipulation",
+      "AJAX Requests",
+      "Event Handling",
+      "RESTful API Design",
+      "API Documentation",
+      "Cross-Origin Resource Sharing",
+      "Error Handling",
+      "ORM Programming",
+      "Database Design",
+      "State Management"
+    ],
+    "domain": [
+      "Accommodation Management",
+      "Search Functionality",
+      "Filter Design",
+      "User Experience",
+      "Client-Server Architecture"
+    ]
+  },
+  "components": {
+    "web_dynamic": {
+      "type": "frontend",
+      "path": "/web_dynamic",
+      "description": "Dynamic web application with JavaScript/jQuery"
+    },
+    "api": {
+      "type": "backend",
+      "path": "/api",
+      "description": "RESTful API for programmatic access to data"
+    },
+    "models": {
+      "type": "core",
+      "path": "/models",
+      "description": "Data models with enhanced storage capabilities"
+    },
+    "storage": {
+      "type": "persistence",
+      "path": "/models/engine",
+      "description": "Storage engines with optimized methods"
+    },
+    "console": {
+      "type": "interface",
+      "path": "/console.py",
+      "description": "Command-line interpreter for CRUD operations"
+    },
+    "tests": {
+      "type": "quality",
+      "path": "/tests",
+      "description": "Unit and integration tests"
+    }
+  },
+  "progression": {
+    "v1": {
+      "description": "Command-line functionality with file storage",
+      "tech_stack": ["Python", "JSON"],
+      "features": ["BaseModel", "File Storage", "Command Interpreter"]
+    },
+    "v2": {
+      "description": "Database integration and web application",
+      "tech_stack": ["Python", "MySQL", "SQLAlchemy", "Flask"],
+      "features": ["ORM Mapping", "MySQL Storage", "Web Application"]
+    },
+    "v3": {
+      "description": "RESTful API implementation",
+      "tech_stack": ["Python", "Flask", "REST API", "CORS"],
+      "features": ["API Endpoints", "CORS Support", "Enhanced Storage Methods"]
+    },
+    "v4": {
+      "description": "Dynamic web interface",
+      "tech_stack": ["JavaScript", "jQuery", "AJAX", "HTML5", "CSS3"],
+      "features": ["Dynamic Content", "Filter Functionality", "AJAX Communication", "Show/Hide Reviews"]
+    }
+  }
+}
